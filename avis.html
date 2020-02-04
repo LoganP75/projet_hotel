@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<!-- METAS -->
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- LINKS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/master.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+		<!-- SCRIPTS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/c1424763f3.js" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+	<body>
+
+		<!-- HEADER -->
+		<header class="d-flex justify-content-between align-items-center" id="header-postion">
+			<a><img id="burger" src="img/burger.png" alt="menu_icon" class="icon"></a>
+			<a href="index.html"><h1>HƟTËL</h1></a>
+			<a>
+				<img src="img/world.png" alt="world_icon" class="icon">
+			</a>
+		</header>
+
+		<!-- NAVIGATION -->
+		<div id="nav">
+			<a>
+				<img src="img/cross.png" alt="cross_icon" class="icon" id="cross">
+			</a>
+			<ul class="list-unstyled">
+				<li><input type="text" placeholder="Recherche..." class="rounded border-0"></li>
+				<li><a href="hotel.html">L'HÔTEL</a></li>
+				<li><a href="chambres.html">CHAMBRES</a></li>
+				<li><a href="restaurant.html">RESTAURANT</a></li>
+				<li><a href="spa.html">SPA</a></li>
+				<li><a href="reservation.html">RÉSERVATION</a></li>
+				<li><a href="evenements.html">ÉVÉNEMENTS</a></li>
+				<li><a href="actualites.html">ACTUALITÉS</a></li>
+				<li><a href="avis.html">AVIS</a></li>
+			</ul>
+		</div>
+
+		<!-- CONTENU PRINCIPAL -->
+		<main class="container">
+			<div id="fb-root" class="btnHide"></div>
+			<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v5.0"></script>
+			<a href="reservation.html"><img src="img/bell.png" alt="reserve" id="bell" class="btnHide"></a>
+			<img src="img/share.png" alt="share" id="share" class="btnHide">
+			<a href="javascript:window.print()"><img src="img/print.png" alt="print" id="print" class="btnHide"></a>
+			<div class="row">
+				<h2>AVIS</h2>
+			</div>
+			<div class="row avis">
+				<div>
+					<h4>Service impeccable</h4>
+					<p>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</p>
+					<p>John S.</p>
+					<p>Hotel somptueux, magnifique rénovation. L'ensemble du personnel est bienveillant et d'un grand professionnalisme . Je recommande vivement.</p>
+					<hr>
+				</div>
+			</div>
+			<div class="row avis">
+				<div>
+					<h4>Service impeccable</h4>
+					<p>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</p>
+					<p>John S.</p>
+					<p>Hotel somptueux, magnifique rénovation. L'ensemble du personnel est bienveillant et d'un grand professionnalisme . Je recommande vivement.</p>
+					<hr>
+				</div>
+			</div>
+			<div class="row avis">
+				<div>
+					<h4>Service impeccable</h4>
+					<p>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</p>
+					<p>John S.</p>
+					<p>Hotel somptueux, magnifique rénovation. L'ensemble du personnel est bienveillant et d'un grand professionnalisme . Je recommande vivement.</p>
+					<hr>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center">
+				<form class="col-12 col-md-6">
+					<h4 class="text-center">Laisser un avis</h4>
+					<div class="form-group">
+						<label for="firstName">Prénom :</label>
+						<input type="text" name="firstName" id="firstName" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="lastName">Nom :</label>
+						<input type="text" name="lastName" id="lastName" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="customerNote">Note :</label>
+						<select class="form-control" name="customerNote" id="customerNote">
+							<option value="one">1 étoile</option>
+							<option value="two">2 étoiles</option>
+							<option value="three">3 étoiles</option>
+							<option value="four">4 étoiles</option>
+							<option value="five">5 étoiles</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="commentTitle">Titre :</label>
+						<input type="text" name="commentTitle" id="commentTitle" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="commentContent">Commentaire :</label>
+						<textarea name="commentContent" rows="3" class="form-control" id="commentContent"></textarea>
+					</div>
+					<input type="submit" name="submit" value="Envoyer" class="btn btnForm w-100 font-weight-bold" id="submitComment">
+					<p class="popUp text-center correct">Le commentaire a bien été publié.</p>
+					<p class="popUp text-center incorrect">Vous devez renseigner tous les champs du formulaire.</p>
+				</form>
+			</div>
+		</main>
+
+		<!-- FOOTER -->
+		<footer class="text-center">
+			<div class="row d-flex justify-content-center">
+				<ul class="d-inline-flex list-unstyled flex-wrap justify-content-center" id="footer-list">
+					<li><a href="hotel.html">CONTACT |</a></li>
+					<li><a href="recrutement.html">RECRUTEMENT |</a></li>
+					<li><a href="presse.html">PRESSE |</a></li>
+					<li><a href="mentions.html">MENTIONS LEGALES |</a></li>
+					<li><a href="cgv.html">CGV |</a></li>
+					<li><a href="plan.html">PLAN DU SITE</a></li>
+				</ul>
+			</div>
+			<div class="row text-center">
+				<div class="col-12">
+					<p>Inscrivez-vous à notre newsletter</p>
+				</div>
+				<div class="col-12 d-flex justify-content-center align-items-baseline flex-wrap">
+					<form class="d-inline-flex">
+						<input type="email">
+						<input type="submit" value="VALIDER">
+					</form>
+				</div>
+				<div class="col-12">
+					<ul class="d-inline-flex list-unstyled">
+						<li><a><img src="img/facebook.png" class="icon"></a></li>
+						<li><a><img src="img/insta.png" class="icon"></a></li>
+						<li><a><img src="img/twitter.png" class="icon"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center">
+				<div id="copyright"  class="d-flex justify-content-center flex-wrap">
+					<p>© 2020 - Hotel, Paris -</p>
+					<p>Tous droits réservés.</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/app.js"></script>
+	</body>
+</html>

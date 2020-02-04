@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+	<!-- METAS -->
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- LINKS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/master.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<!-- SCRIPTS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/c1424763f3.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+	<body>
+		<header class="d-flex justify-content-between align-items-center" id="header-postion">
+			<a><img id="burger" src="img/burger.png" alt="menu_icon" class="icon"></a>
+			<a href="index.html"><h1>HƟTËL</h1></a>
+			<a>
+				<img src="img/world.png" alt="world_icon" class="icon">
+			</a>
+		</header>
+		<div id="nav">
+			<a>
+				<img src="img/cross.png" alt="cross_icon" class="icon" id="cross">
+			</a>
+			<ul class="list-unstyled">
+				<li><input type="text" placeholder="Recherche..." class="rounded border-0"></li>
+				<li><a href="hotel.html">L'HÔTEL</a></li>
+				<li><a href="chambres.html">CHAMBRES</a></li>
+				<li><a href="restaurant.html">RESTAURANT</a></li>
+				<li><a href="spa.html">SPA</a></li>
+				<li><a href="reservation.html">RÉSERVATION</a></li>
+				<li><a href="evenements.html">ÉVÉNEMENTS</a></li>
+				<li><a href="actualites.html">ACTUALITÉS</a></li>
+				<li><a href="avis.html">AVIS</a></li>
+			</ul>
+		</div>
+
+		<main class="restau">
+			<div id="fb-root" class="btnHide"></div>
+			<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v5.0"></script>
+			<a href="reservation.html"><img src="img/bell.png" alt="reserve" id="bell" class="btnHide"></a>
+			<img src="img/share.png" alt="share" id="share" class="btnHide">
+			<a href="javascript:window.print()"><img src="img/print.png" alt="print" id="print" class="btnHide"></a>
+			<div class="container text-center">
+				<h2>CARTE BRASSERIE</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="carte cocktails d-flex align-items-center justify-content-center"></div>
+			<div class="container">
+				<h3 class="font-weight-bolder titreCarteRest text-center">Cocktails</h3>
+				<div class="row d-flex justify-content-center">
+					<dl class="">
+						<dt>HOT BUTTERED RUM</dt>
+						<dd>Parfait pour l'hiver, avec du rhum chaud beurré et garni d'un touche de muscade / 15</dd>
+						<dt>PLANTEUR'S PUNCH</dt>
+						<dd>Mélange de divers fruits et jus de fruits avec du rhum ambré : une boisson parapluie fruitée / 15</dd>
+						<dt>HURRICANE</dt>
+						<dd>Cocktail classique de la Nouvelle-Orléans avec du jus de citron vert et du sirop de fruit de la passion, servi sur glace / 12</dd>
+						<dt>BLOODY MARY</dt>
+						<dd>Le préféré du brunch avec du jus de tomate et diverses épices garni d'une tige de céléri / 15</dd>
+						<dt>KAMIKAZE</dt>
+						<dd>Jus de citron vert et triple sec : servi "on the rocks" dans un verre à whisky / 15</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="carte bieres"></div>
+			<div class="container">
+				<h3 class="font-weight-bolder titreCarteRest text-center">Bières</h3>
+				<div class="row d-flex justify-content-center">
+					<dl>
+						<dt class="text-uppercase">Dale's Pale Ale</dt>
+						<dd>Une American Pale Ale parfaitelemtn équilibrée issue de la brasserie Oskar Blues / 7</dd>
+						<dt class="text-uppercase">Breckenridge Vanilla Porter</dt>
+						<dd>Une bière qui a toute la saveur de noix grillée d'une Porter classique, avec une surprise énigmatique pour faire bonne mesure / 7</dd>
+						<dt class="text-uppercase">Brooklyn Brewery Lager</dt>
+						<dd>Quoi de mieux qu'une bonne lager américaine à déguster par une journée ensoleillée ? / 7</dd>
+						<dt class="text-uppercase">Surely Brewing Darkness</dt>
+						<dd>Une bière massive qui apporte des vagues de saveurs : chocolat, cerise, raisins secs, café et caramel. La touche de houblon rend cette bière encore plus savoureuse / 7</dd>
+						<dt class="text-uppercase">New Belgium Fat Tire</dt>
+						<dd>Une bière ambrée facile à boire née au Colorado. Bière de la New Belgium Brewing Company, certifiée B-Corp / 7</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="carte vins"></div>
+			<div class="container">
+				<h3 class="font-weight-bolder titreCarteRest text-center">Vins</h3>
+				<div class="row d-flex justify-content-center">
+					<dl class="">
+						<dt>DEVLINS MOUNT SHIRAZ</dt>
+						<dd>Vibrant en bouche avec beaucoup d'acidité mettant en valeur la groseille et les notes herbacées / 25</dd>
+						<dt>PRIMITIVO - TORRE SOLARIA</dt>
+						<dd>Le bouquet généreux affiche d'abondantes nuances mûres et fruitées / 23</dd>
+						<dt>MARQUES DE REINOSA RIOJA</dt>
+						<dd>Couleur cerise profonde et arôme complexe, bien équilibré / 20</dd>
+					</dl>
+				</div>
+			</div>
+		</main class="restau">
+
+		<footer class="text-center">
+			<div class="row d-flex justify-content-center">
+				<ul class="d-inline-flex list-unstyled flex-wrap justify-content-center" id="footer-list">
+					<li><a href="hotel.html">CONTACT |</a></li>
+					<li><a href="recrutement.html">RECRUTEMENT |</a></li>
+					<li><a href="presse.html">PRESSE |</a></li>
+					<li><a href="mentions.html">MENTIONS LEGALES |</a></li>
+					<li><a href="cgv.html">CGV |</a></li>
+					<li><a href="plan.html">PLAN DU SITE</a></li>
+				</ul>
+			</div>
+			<div class="row text-center">
+				<div class="col-12">
+					<p>Inscrivez-vous à notre newsletter</p>
+				</div>
+				<div class="col-12 d-flex justify-content-center align-items-baseline flex-wrap">
+					<form class="d-inline-flex">
+						<input type="email">
+						<input type="submit" value="VALIDER">
+					</form>
+				</div>
+				<div class="col-12">
+					<ul class="d-inline-flex list-unstyled">
+						<li><a><img src="img/facebook.png" class="icon"></a></li>
+						<li><a><img src="img/insta.png" class="icon"></a></li>
+						<li><a><img src="img/twitter.png" class="icon"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center">
+				<div id="copyright"  class="d-flex justify-content-center flex-wrap">
+					<p>© 2020 - Hotel, Paris -</p>
+					<p>Tous droits réservés.</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/app.js"></script>
+	</body>
+</html>
